@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model=joblib.load('LogisticRegression_heart_model.kpl')
-scaler=joblib.load('heart_scaler.kpl')
-expected_columns=joblib.load('heart_columns.kpl')
+model=joblib.load('LogisticRegression_heart_model.pkl')
+scaler=joblib.load('heart_scaler.pkl')
+expected_columns=joblib.load('heart_columns.pkl')
 
 
 st.title("Heart Stroke prediction")
